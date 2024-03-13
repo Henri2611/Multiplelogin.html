@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.full-page{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('images/bg-2.jpg');
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 30px;
+  padding-top: 50px;
+  
+}
+nav{
+  flex: 1;
+  text-align: right;
+  
+}
+nav ul{
+  display: inline-block;
+  list-style: none;
+}
+nav ul li {
+  display: inline-block;
+  margin-left: 70px;
+}
+nav ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  font-family: sans-serif;
+}
+ 
+nav ul li a:hover {
+  color: cyan;
+}
+ a {
+  text-decoration: none;
+  color: palevioletred;
+  font-size: 28px;
+} 
+.login-page {
+  width: 350px;
+  height: 450px;
+  /* padding: 10px; */
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  margin: 2% auto;
+  background: rgba(0,0,0,0.3);
+  margin: 50px auto;
+  gap: 10px;
+  box-shadow:0 20px 35px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  
+}
+form input{
+  width: 90%;
+  padding: 10px;
+  margin: 10px;
+  border-color: grey;
+  border: 1px solid rgb(231, 227, 227);
+  background:transparent; 
+  border-bottom:1px solid #999 ;
+  border-left: 0;
+  border-left: 0;
+  border-top: 0;
+  border-right: 0;
+  outline:none;
+  margin-bottom: 10px;
+  margin-top:50px ;
+}
+
+.checkbox{
+  /* margin: 20px auto; */
+  width: 10px;
+  height: 10px;
+  margin-top: 40px;
+  margin-left: 12px;
+  padding-top: 50px;
+  margin-bottom:8px ;
+  
+
+  
+  }
+.spn {
+  
+  font-size: 12px;
+  color:#777;
+  margin-top: 12px;
+  padding-bottom:20px ;
+  
+
+
+}
+.submit-btn {
+
+  font-size: 12px;
+  padding: 10px;
+  margin: 8px;
+  background:#F3C693 ;
+  border:0 ;
+  outline:none ;
+  border-radius:30px ;
+  color: black;
+  border: none;
+  cursor: pointer;
+  margin-left:35px;
+  padding-left: 80px;
+  padding-right: 80px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+
+}
+.submit-btn:hover{
+  color: black;
+  transform: translate(-3px);
+}
+.header {
+  padding-top:20px ;
+  padding-bottom:20px ;
+  text-align: center;
+  border:1px solid #777 ;
+  border-radius: 20px;
+  color: #777;
+  margin: 10px;
+}
+::placeholder {
+  padding-right: 15px;
+}
+  
+
+
+
